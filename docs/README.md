@@ -1,8 +1,6 @@
-# Project documentation
-
-## Description
-Geometric Lib is a simple educational Python library for calculating the area and perimeter of geometric figures.  
-The project was developed in the course of lab work related to Git and documentation.
+# Geometric lib
+## Общее описание решения
+Geometric Lib - библиотека Python для вычисления площади и периметра геометрических фигур
 
 ---
 
@@ -21,30 +19,31 @@ The project was developed in the course of lab work related to Git and documenta
 
 ---
 
-## Functions
+## Описание функций
 
 ### circle.py
-- **area(r)** – returns the area of a circle. Example: `area(5)`
-- **perimeter(r)** – returns the perimeter of a circle. Example: `perimeter(5)`
+- **area(r)** – Возвращает площадь круга.
+- **perimeter(r)** – Возвращает периметр круга.
 
 ### square.py
-- **area(a)** – returns the area of a square. Example: `area(4)`
-- **perimeter(a)** – returns the perimeter of a square. Example: `perimeter(4)`
+- **area(a)** – Возвращает площадь квадрата.
+- **perimeter(a)** – Возвращает периметр квадрата.
 
 ### rectangle.py
-- **area(a, b)** – returns the area of a rectangle. Example: `area(3, 5)`
-- **perimeter(a, b)** – returns the perimeter of a rectangle. Example: `perimeter(3, 5)`
+- **area(a, b)** – Возвращает площадь прямоугольника.
+- **perimeter(a, b)** – Возвращает периметр прямоугольника.
 
 ### triangle.py
-- **area(a, h)** – returns the area of a triangle. Example: `area(6, 4)`
-- **perimeter(a, b, c)** – returns the perimeter of a triangle. Example: `perimeter(3, 4, 5)`
+- **area(a, h)** – Возвращает площадь треугольника.
+- **perimeter(a, b, c)** – Возвращает периметр треугольника.
 
 ---
 
-## Change history
+## История изменений проекта
 
 | Commit hash | Description |
 |--------------|-------------|
-| a1b2c3d | Added rectangle.py and triangle.py |
-| e4f5g6h | Fixed rectangle perimeter formula |
-| i7j8k9l | Added documentation and comments |
+| 4d57ea1 | fixed error in rectangle-perimeter function |
+| a8edd40 | added new file |
+| d078c8d | L-03: Docs added |
+| 8ba9aeb | L-03: Circle and square added |
