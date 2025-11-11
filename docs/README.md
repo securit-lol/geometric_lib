@@ -1,6 +1,7 @@
 # Geometric lib
 ## Общее описание решения
-Geometric Lib - библиотека Python для вычисления площади и периметра геометрических фигур
+Geometric Lib - библиотека Python для вычисления площади и периметра геометрических фигур.
+Также проект содержит тесты для проверок всех фкнций содержащихся в либе 
 
 ---
 
@@ -45,5 +46,6 @@ Geometric Lib - библиотека Python для вычисления площ
 |--------------|-------------|
 | 4d57ea1 | fixed error in rectangle-perimeter function |
 | a8edd40 | added new file |
-| d078c8d | L-03: Docs added |
-| 8ba9aeb | L-03: Circle and square added |
+| d078c8d | Docs added |
+| 9cd3641 | changes readme |
+| c7483cf | changes readme |
